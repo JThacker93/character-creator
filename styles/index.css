@@ -1,0 +1,41 @@
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  margin: 10px;
+}
+
+span:hover {
+  height: 50px;
+  width: 50px;
+}
+
+.item {
+  width: 10px;
+}
+
+.label {
+  padding: 1px 3px 2px;
+  font-size: 9.75px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #bfbfbf;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+div.pageTitle {
+  font-weight: bold;
+  text-align-last: center;
+}
