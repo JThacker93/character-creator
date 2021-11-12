@@ -1,7 +1,7 @@
 {
   "name": "character-creator",
   "version": "1.0.0",
-  "description": "Character Creator",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/OldSociety/character-creator.git"
   },
-  "keywords": [
-    "dnd"
-  ],
-  "author": "oldsociety",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OldSociety/character-creator/issues"
