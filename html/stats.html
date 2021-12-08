@@ -26,7 +26,14 @@
           </tr>
           <tr>
             <td>Strength</td>
-            <td><input type="number" placeholder="10" id="strScore" /></td>
+            <td>
+              <input
+                type="number"
+                placeholder="10"
+                id="strScore"
+                onchange="updateModifiers()"
+              />
+            </td>
             <td><input type="number" placeholder="0" id="strMod" /></td>
           </tr>
           <tr>
@@ -62,7 +69,7 @@
 
         <br />
 
-        <input type="number" id="playerLevel" />
+        <input type="number" id="playerLevel" min="1" max="20" />
       </div>
 
       <div class="col-4">
